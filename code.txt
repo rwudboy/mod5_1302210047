@@ -1,0 +1,11 @@
+public class HaloGeneric {
+    public <T> void SapaUser(T nama) {
+        System.out.println("Halo user " + nama.toString());
+    }
+
+    public static void main(String[] args) {
+        HaloGeneric halo = new HaloGeneric();
+        String input = "input";
+        halo.SapaUser(input);
+    }
+}
